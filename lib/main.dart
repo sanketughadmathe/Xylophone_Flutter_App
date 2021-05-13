@@ -20,8 +20,6 @@ class XylophoneApp extends StatelessWidget {
           playSound(soundNo);
         },
         style: ButtonStyle(backgroundColor: MaterialStateProperty.all(color)),
-        child: null,
-        // style: ButtonStyle(backgroundColor: MaterialStateProperty.all(Colors.red)),
       ),
     );
   }
